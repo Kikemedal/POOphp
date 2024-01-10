@@ -55,6 +55,7 @@ class Omega extends Reloj{
     public function getPrecio(){
         return $this->precio;
     }
+
  
 
     public function __toString(){

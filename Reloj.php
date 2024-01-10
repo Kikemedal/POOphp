@@ -11,6 +11,7 @@ abstract class Reloj {
     private $peso;
 
 
+
     abstract protected function getMovimiento();
     abstract protected function getHermeticidad();
     abstract protected function getCristal();
