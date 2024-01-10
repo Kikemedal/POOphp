@@ -1,6 +1,6 @@
 <php 
 
-class Reloj {
+abstract class Reloj {
     private $movimiento;
     private $hermeticidad;
     private $cristal;
@@ -11,21 +11,16 @@ class Reloj {
     private $peso;
 
 
-    abstract function getMovimiento();
-    abstract function getHermeticidad();
-    abtract function getCristal();
-    abstract function getBrazalete();
-    abtract function getCorona();
-    abtract function getCaja();
-    abtract function getEsfera();
-    abtract function getPeso();
+    abstract protected function getMovimiento();
+    abstract protected function getHermeticidad();
+    abtract protected function getCristal();
+    abstract protected function getBrazalete();
+    abtract protected  function getCorona();
+    abtract protected  function getCaja();
+    abtract protected  function getEsfera();
+    abtract protected  function getPeso();
 
-
-
-
-
-
-
+    
 
 
 
