@@ -21,8 +21,6 @@ class Omega extends Reloj{
         $this->precio = $precio;
     }
 
-    
-
     public function getMovimiento(){
         return $this->movimiento;
     }
